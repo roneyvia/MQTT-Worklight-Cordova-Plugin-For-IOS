@@ -3,12 +3,25 @@ It's a sample for Mqtt in ios using Cordova /Worklight plugin
 
 1. Open your XCODE project
 2. Copy Mqtt libraries to your project
+
     a. libmosquitto
+
     b. MQTTKit
+    
 3. In your Xcode project --> Classes folder --> create these 2 files(Its given in MQTT-Worklight-Cordova-plugin-For-IOS)
-    a. Create MQTTViewController.h
+   
+     a. Create MQTTViewController.h
+
     b. Create MQTTViewController.m
-4. main.js (Call MQTT plugin)
+    
+4. config.xml
+
+    <feature name="MQTTViewController">
+        <param name="ios-package" value="MQTTViewController" />
+    </feature>
+    
+5. main.js (Call MQTT plugin)
+
     a. To subscribe Mqtt
 
         function sub(){
@@ -51,11 +64,7 @@ It's a sample for Mqtt in ios using Cordova /Worklight plugin
         {
         }
         
-5. config.xml
 
-    <feature name="MQTTViewController">
-        <param name="ios-package" value="MQTTViewController" />
-    </feature>
       
 
 
