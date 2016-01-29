@@ -14,9 +14,12 @@ It's a sample for Mqtt in ios using Cordova /Worklight plugin
 
     b. Create MQTTViewController.m
     
-4.  <feature name="MQTTViewController">
+4.  Config file
+    ```xml
+     <feature name="MQTTViewController">
         <param name="ios-package" value="MQTTViewController"/>
      </feature>
+   ```
     
 5. main.js (Call MQTT plugin)
 
