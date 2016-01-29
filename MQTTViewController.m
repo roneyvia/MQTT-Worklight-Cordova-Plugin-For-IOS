@@ -2,9 +2,9 @@
 
 //  MQTTViewController.m
 
-//  ScanNPayScanNPayIphone
+// 
 
-//  Created by IT Dept on 09/10/15
+//  Created by Roney Francis on 09/10/15
 
 //  @author Roney Francis
 
