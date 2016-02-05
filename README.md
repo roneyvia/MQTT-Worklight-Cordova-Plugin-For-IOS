@@ -24,19 +24,20 @@ It's a sample for Mqtt in ios using Cordova /Worklight plugin
 5. main.js (Call MQTT plugin)
 
     a. To subscribe Mqtt
-
+        
+        ```javascript
         function sub(){
             cordova.exec(subscribeMQTTSuccess,subscribeMQTTFailure,"MQTTViewController","subscribe",["YourTopic"]);
         }
-        
+        ```
     b. To Publish Mqtt
-    
+         ```javascript
         function pub(){
             cordova.exec(publishMQTTSuccess,publishMQTTFailure,"MQTTFedPOSplugin","pubMssgAction",["YourTopic"]);
         }
-        
+        ```
     c. To recieve response from Plugin
-    
+         ```javascript
         function subscribeMQTTSuccess(data)
         {
             alert("Success");
@@ -64,7 +65,7 @@ It's a sample for Mqtt in ios using Cordova /Worklight plugin
         function disconnectMQTTFailure(data)
         {
         }
-        
+        ```
 
       
 Author
